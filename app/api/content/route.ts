@@ -1,6 +1,8 @@
 import { NextResponse } from 'next/server';
 import { getServerSession } from 'next-auth';
 
+export const dynamic = 'force-dynamic';
+
 const posts = [
   {
     title: 'Lorem Ipsum',
